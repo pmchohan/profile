@@ -40,12 +40,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-gh-pages`,
-      options: {
-        branch: 'gh-pages',
-        cleanup: true
-      }
-    }
   ],
 }
