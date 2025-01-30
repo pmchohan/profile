@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaMedium } from 'react-icons/fa';
 
 const Home = () => {
   const projects = [
