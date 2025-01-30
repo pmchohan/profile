@@ -4,64 +4,109 @@ const About = () => {
   const education = [
     {
       degree: "Bachelor's in Artificial Intelligence",
-      institution: "[University Name]",
-      year: "2020-2024",
+      institution: "UMT, Lahore",
+      year: "2021-present",
+    },
+    {
+      degree: "ICS - Phy,Math",
+      institution: "PGC, Gujranwala",
+      year: "2019-2021",
     },
   ];
 
   const experience = [
     {
-      role: "AI Research Assistant",
-      company: "[Company/Lab Name]",
-      duration: "Jun 2023 - Present",
-      description: "Working on computer vision algorithms for autonomous systems",
-    },
-    {
-      role: "Machine Learning Intern",
-      company: "[Company Name]",
-      duration: "May 2022 - Aug 2022",
-      description: "Developed and deployed ML models for data analysis",
+      role: "Mentor",
+      company: "GDGoC UMT",
+      duration: "--",
+      description: "Taught basics of ML classification with live implementation",
     },
   ];
 
   const achievements = [
     {
-      title: "Best Paper Award",
-      event: "International AI Conference 2023",
-      description: "Research paper on novel deep learning architecture",
+      title: "Dean's Award",
+      event: "for scoring SGPA 3.81 in 1st semester",
+      description: "Universities second highest award for academic excellence",
     },
     {
-      title: "Hackathon Winner",
-      event: "TechFest 2023",
-      description: "Led team to victory in AI/ML track",
+      title: "Dean's Award",
+      event: "for scoring SGPA 3.93 in 2nd semester",
+      description: "Universities second highest award for academic excellence",
+    },
+    {
+      title: "Gold Medal",
+      event: "for scoring 1007/1100 - highest in Computer Science batch in matric",
+      description: "READ Foundation's highest award for academic excellence",
     },
   ];
 
   const societies = [
     {
-      name: "AI Society",
-      role: "Technical Lead",
-      duration: "2022-2023",
-      description: "Organized workshops and mentored junior members",
+      role: "General Secretary",
+      name: "Leaders Forum UMT",
+      duration: "Sep 24 - present",
+      description: "",
     },
     {
-      name: "Computing Society",
-      role: "Events Coordinator",
-      duration: "2021-2022",
-      description: "Managed tech talks and networking events",
+      role: "AI/ML Lead",
+      name: "Google Developer's Group UMT",
+      duration: "Sep 24 - present",
+      description: "",
+    },
+    {
+      role: "Pre-Impactor",
+      name: "Idyllic Youth Society",
+      duration: "Oct 24 - present",
+      description: "",
+    },
+    {
+      role: "President SDT Block",
+      name: "Leaders Forum UMT",
+      duration: "Jan 24 - Oct 24",
+      description: "",
+    },
+    {
+      role: "Member Planning Committee",
+      name: "Leaders Forum UMT",
+      duration: "Dec 23 - Jan 24",
+      description: "",
+    },
+    {
+      role: "Member AI/ML team",
+      name: "Google Developer's Group UMT",
+      duration: "Nov 23 - Oct 24",
+      description: "",
+    },
+    {
+      role: "Associate",
+      name: "Idyllic Youth Society",
+      duration: "Jan 24 - Oct 24",
+      description: "",
+    },
+    {
+      role: "Volunteer",
+      name: "Idyllic Youth Society",
+      duration: "Oct 23 - Jan 24",
+      description: "",
     },
   ];
 
   const certifications = [
     {
-      name: "Machine Learning Specialization",
-      issuer: "[Platform Name]",
+      name: "Crash Course on Python",
+      issuer: "Coursera - Google",
       year: "2023",
     },
     {
-      name: "Deep Learning Professional Certificate",
-      issuer: "[Platform Name]",
+      name: "Introduction to Docker",
+      issuer: "Coursera - Google Cloud",
       year: "2023",
+    },
+    {
+      name: "MS Word Specialist",
+      issuer: "PGC - Microsoft",
+      year: "2021",
     },
   ];
 
@@ -102,7 +147,7 @@ const About = () => {
             transition={{ duration: 0.5 }}
           >
             <img
-              src="https://placehold.co/400x400/1a1a1a/64ffda/png?text=AF"
+              src="/profile/images/me.jpg"
               alt="Abdullah Faisal"
               className="w-full h-full object-cover"
             />
@@ -110,7 +155,7 @@ const About = () => {
           <div className="md:w-2/3">
             <h1 className="text-4xl font-bold mb-4">About Me</h1>
             <p className="text-gray-400 text-lg">
-              I'm an AI enthusiast based in [City Name], passionate about developing intelligent systems
+              I'm a tech enthusiast based in Lahore, passionate about developing intelligent systems
               that can make a positive impact on society.
             </p>
           </div>

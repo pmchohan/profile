@@ -5,17 +5,17 @@ const Contact = () => {
   const socialLinks = [
     {
       platform: "GitHub",
-      url: "https://github.com/[username]",
+      url: "https://github.com/pmchohan",
       icon: FaGithub,
     },
     {
       platform: "LinkedIn",
-      url: "https://linkedin.com/in/[username]",
+      url: "https://linkedin.com/in/abdullahfaisal9",
       icon: FaLinkedin,
     },
     {
       platform: "WhatsApp",
-      url: "https://wa.me/[your-number]",
+      url: "https://wa.me/+923061569919",
       icon: FaWhatsapp,
     },
   ];
@@ -47,12 +47,12 @@ const Contact = () => {
               <div className="flex items-center space-x-3">
                 <FaEnvelope className="text-secondary" />
                 <a href="mailto:[email]" className="hover:text-secondary">
-                  [email@example.com]
+                  [abdullahchohan9919@gmail.com]
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <FaPhone className="text-secondary" />
-                <span>[phone number]</span>
+                <span>[0306 1569919]</span>
               </div>
             </div>
           </motion.div>
