@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { desc } from 'framer-motion/client';
 
 const Home = () => {
   const projects = [
