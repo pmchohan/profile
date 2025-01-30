@@ -4,12 +4,14 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Background from './components/Background';
+import CustomCursor from './components/CustomCursor';
 
 function App() {
   return (
     <Router>
       <div className="min-h-screen bg-primary text-white relative">
         <Background />
+        <CustomCursor />
         <div className="relative z-10">
           <Navbar />
           <Routes>

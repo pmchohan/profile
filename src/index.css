@@ -16,6 +16,12 @@ body {
   background-color: #0a192f;
   color: #ffffff;
   overflow-x: hidden;
+  cursor: none !important;
+}
+
+/* Hide cursor on clickable elements */
+a, button, [role="button"] {
+  cursor: none !important;
 }
 
 /* Smooth scrolling */
