@@ -16,10 +16,10 @@ function App() {
         <div className="relative z-10">
           <Navbar />
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="/profile" element={<Home />} />
+            <Route path="/profile/about" element={<About />} />
+            <Route path="/profile/contact" element={<Contact />} />
+            <Route path="/profile/*" element={<NotFound />} />
           </Routes>
         </div>
       </div>

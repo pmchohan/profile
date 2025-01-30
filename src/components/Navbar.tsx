@@ -8,10 +8,10 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const links = [
-    { path: '/', label: 'Home' },
-    { path: '/about', label: 'About' },
-    { path: '/contact', label: 'Contact' },
-    { path: '/resume.pdf', label: 'Resume', external: true },
+    { path: '/profile', label: 'Home' },
+    { path: '/profile/about', label: 'About' },
+    { path: '/profile/contact', label: 'Contact' },
+    { path: '/profile/resume.pdf', label: 'Resume', external: true },
   ];
 
   const menuVariants = {
