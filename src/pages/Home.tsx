@@ -84,7 +84,42 @@ const Home = () => {
       title: "Master the Weka Data Mining Workbench",
       description: "A Comprehensive Guide",
       link: "https://medium.com/@abdullahchohan9919/master-the-weka-data-mining-workbench-a-comprehensive-guide-6a12a3d6eae7",
-    }
+    },
+    {
+      title: "Introduction: Unveiling the Power of Dimensionality Reduction",
+      description: "Use of PCA",
+      link: "https://medium.com/@f2021376111/introduction-unveiling-the-power-of-dimensionality-reduction-e39123c1f41f",
+    },
+    {
+      title: "Understanding Support Vector Machines (SVM) Mathematically",
+      description: "An Intuitive Guide",
+      link: "https://medium.com/@f2021376111/understanding-support-vector-machines-svm-mathematically-an-intuitive-guide-4382bcd51903",
+    },
+    {
+      title: "Demystifying the Math Behind Decision Trees",
+      description: "Entropy, Information Gain, Ginni Impurity, Pruning and evaluation",
+      link: "https://medium.com/@abdullahchohan9919/demystifying-the-math-behind-decision-trees-an-intuitive-guide-63668d7e8c8c",
+    },
+    {
+      title: "Demystifying DBSCAN: An Intuitive Guide to the Math Behind It",
+      description: "Epsilon, Min Pts, Core Points, Border Points, Noise Points, Anomaly, Segmentation",
+      link: "https://medium.com/@abdullahchohan9919/demystifying-dbscan-an-intuitive-guide-to-the-math-behind-it-ecbd2d8f849a",
+    },
+    {
+      title: "A Deep Dive into Soft SVM",
+      description: "Soft SVM, Slcak Variable, Hinge Loss, Regularization",
+      link: "https://medium.com/@f2021376111/unraveling-the-mysteries-a-deep-dive-nto-soft-support-vector-machines-f3465768e4f8",
+    },
+    {
+      title: "Under the hood of KNN",
+      description: "K nearest neighbors, Sklearn",
+      link: "https://medium.com/@f2021376111/k-nearest-neighbors-knn-is-a-straightforward-but-powerful-algorithm-in-machine-learning-e92495d6652b",
+    },
+    {
+      title: "Best coding practices for Sklearn",
+      description: "Scikit-learn in python - best practices and standards",
+      link: "https://medium.com/@f2021376111/mastering-scikit-learn-best-practices-for-python-machine-learning-57b2ef52879d",
+    },
   ];
 
   const containerVariants = {
